@@ -1,0 +1,26 @@
+package edu.uoc.tfm.frauddetection.config;
+
+import java.util.Optional;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.data.domain.AuditorAware;
+import org.springframework.data.neo4j.config.EnableNeo4jAuditing;
+
+/**
+ * @author Jose Perez
+ */
+@Configuration(proxyBeanMethods = false)
+@EnableNeo4jAuditing
+public class AdditionalSpringDataConfig {
+
+	/**
+	 * A real application could for example return the authenticated user here.
+	 *
+	 * @return
+	 */
+	@Bean
+	public AuditorAware<String> auditorProvider() {
+		return () -> Optional.ofNullable(System.getProperty("user.name"));
+	}
+}
