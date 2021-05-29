@@ -12,7 +12,7 @@ The outcome of the project, apart from documentation, will be the detection mode
 
 With these results, it is expected to show a practical case of fraud detection using this technology, as well as future improvements combined with other techniques, such as rule-based models or classification methods.
 
-
+========================================================================================
 
 
 Detección de fraudes en transacciones comerciales mediante modelos en grafos.
