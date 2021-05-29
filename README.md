@@ -17,7 +17,7 @@ With these results, it is expected to show a practical case of fraud detection u
 [https://www.kaggle.com/kartik2112/fraud-detection
 ](url)
 
-========================================================================================
+==========================================================================
 
 Detección de fraudes en transacciones comerciales mediante modelos en grafos.
 
