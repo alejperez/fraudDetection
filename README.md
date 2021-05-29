@@ -12,8 +12,12 @@ The outcome of the project, apart from documentation, will be the detection mode
 
 With these results, it is expected to show a practical case of fraud detection using this technology, as well as future improvements combined with other techniques, such as rule-based models or classification methods.
 
-========================================================================================
+**Due to GIT limitations data files cannot be uploaded, but they can be downloaded from:**
 
+[https://www.kaggle.com/kartik2112/fraud-detection
+](url)
+
+========================================================================================
 
 Detección de fraudes en transacciones comerciales mediante modelos en grafos.
 
@@ -24,4 +28,10 @@ La metodología empleada será la implementación de un sistema de detección de
 Debido a la dificultad de disponer de datos financieros reales. Se  distintos conjuntos de datos de transacciones, y los modelos basados en grafos necesarios para establecer las consultas adecuadas para la búsqueda de patrones de fraude. 
 
 Los artefactos generados, además de la documentación, serán el modelo empleado de detección, así como las consultas requeridas, y los informes generados a partir de esas consultas. El software incluirá el modelo para Neo4j y código cypher necesario y, si cabe, código Java para implementar triggers Neo4j para ejecución inmediata al producirse una transacción. Se desarrollará también un programa para generar transacciones bancarias de prueba
+
+**Debido a limitaciones en Github no ha sido posible incluir los ficheros de datos, pero pueden descargarse directamente de la web de Kaggle en:**
+
+[https://www.kaggle.com/kartik2112/fraud-detection
+](url)
+
 
